@@ -1,1 +1,1 @@
-console.log("palindrom");
+console.log("palindrom app");

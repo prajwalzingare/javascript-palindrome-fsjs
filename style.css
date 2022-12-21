@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(184, 184, 180);
+}
+
+.container {
+    width: 40%;
+    min-width: 350px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.779);
+}
+
+input {
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    padding: 10px 5px;
+    font-weight: 500;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 2px solid yellow;
+}
+
+/* //button desigh  */
+
+.btn {
+    width: 25%;
+    text-align: center;
+    float: right;
+    padding: 10px 14px;
+    background-color: #b156fe;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+    letter-spacing: .04em;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+p {
+    margin-top: 30px;
+    text-align: center;
+    color: #b156fe;
+    font-weight: 700;
+}
