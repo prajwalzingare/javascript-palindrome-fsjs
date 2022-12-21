@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(184, 184, 180);
+    background-color: rgb(208, 208, 31);
 }
 
 .container {
@@ -41,7 +41,7 @@ input:focus {
 
 /* //button desigh  */
 
-.btn {
+#btn {
     width: 25%;
     text-align: center;
     float: right;
@@ -56,7 +56,7 @@ input:focus {
     letter-spacing: .04em;
 }
 
-.btn:hover {
+#btn:hover {
     background-image: linear-gradient(#B384C9, #391F5B 50%);
 }
 
